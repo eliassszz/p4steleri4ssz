@@ -1,0 +1,117 @@
+.mapa{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.mapa iframe, .mapa object, .mapa embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.formulario {
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(166, 211, 173);
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; 
+}
+
+.formulario-titulo{
+    text-align: center;
+}
+
+.redes-sociales{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.redes-sociales a {
+    margin-right: 20px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-nombree {
+    flex: 1;
+    margin: 10px; 
+}
+
+
+label {
+    font-size: 18px;
+    color:white;
+}
+
+input {
+
+    width: 100%; 
+    height: 27px;
+    border: 2px solid rgb(18, 102, 211);
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid rgb(10, 69, 146);
+    outline: none; 
+}
+
+.grupo-nombree textarea {
+    width: 100%;
+    resize: none;
+    border: 2px solid rgb(18, 102, 211);
+    border-radius: 5px;
+}
+
+.grupo-nombree textarea:focus{
+    border: 2px solid rgb(10, 69, 146);
+    outline: none; 
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #999; 
+    font-style: italic; 
+}
+
+
+input:focus::placeholder {
+    color: transparent; 
+}
+
+
+.grupo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.grupo-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.grupo-button button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,24 @@
+.video{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.video iframe, .video object, .video embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.seccion-videos {
+    max-width: 1200px;
+    margin: 0 auto; 
+}

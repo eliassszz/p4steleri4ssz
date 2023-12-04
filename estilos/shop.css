@@ -1,0 +1,46 @@
+.shop-contenido{
+    max-width: 1200px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+details {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+summary {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    user-select: none;
+}
+
+ul ul {
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #dcdcdc;
+}
+.titulo {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px; 
+}
